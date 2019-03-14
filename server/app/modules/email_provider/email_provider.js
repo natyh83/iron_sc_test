@@ -5,8 +5,8 @@ class EmailProvider {
         this.transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'natyh83@gmail.com',
-                pass: 'Ifeel1983+'
+                user: '',
+                pass: ''
             }
         });
     }
